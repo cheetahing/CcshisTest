@@ -1,0 +1,530 @@
+2019-04-03 15:34:50.283 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:34:50.356 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:34:50.357 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:34:50.357 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:34:50.357 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:34:50.362 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:34:50.371 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:34:50.397 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:34:50.402 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:34:50.402 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:34:50.763 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:34:53.892 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:34:54.469 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=2].
+2019-04-03 15:34:59.445 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0653616s
+2019-04-03 15:35:08.373 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050250s
+2019-04-03 15:35:14.384 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0154892s
+2019-04-03 15:35:20.368 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0066704s
+2019-04-03 15:35:20.388 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:35:20 +00:00
+2019-04-03 15:35:23.373 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045769s
+2019-04-03 15:37:11.994 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:37:12.039 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:37:12.040 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:37:12.040 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:37:12.041 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:37:12.045 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:37:12.046 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:37:12.088 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:37:12.089 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:37:12.089 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:37:12.317 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:37:16.145 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:37:21.373 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=4].
+2019-04-03 15:37:30.104 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0516601s
+2019-04-03 15:37:39.058 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0055884s
+2019-04-03 15:37:42.059 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:37:42 +00:00
+2019-04-03 15:37:51.055 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050343s
+2019-04-03 15:38:00.061 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049981s
+2019-04-03 15:38:09.056 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0047251s
+2019-04-03 15:38:21.046 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0047086s
+2019-04-03 15:38:30.054 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044591s
+2019-04-03 15:38:42.053 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:38:42 +00:00
+2019-04-03 15:38:42.055 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0079623s
+2019-04-03 15:40:10.210 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:40:10.256 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:40:10.257 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:40:10.260 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:40:10.264 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:40:10.265 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:40:10.266 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:40:10.310 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:40:10.320 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:40:10.320 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:40:10.491 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:40:14.785 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:40:15.370 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=5].
+2019-04-03 15:40:29.241 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.2283605s
+2019-04-03 15:40:31.289 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0085817s
+2019-04-03 15:40:37.283 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049428s
+2019-04-03 15:41:32.259 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:41:32.320 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:41:32.320 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:41:32.321 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:41:32.321 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:41:32.321 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:41:32.322 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:41:32.348 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:41:32.349 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:41:32.349 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:41:32.542 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:41:34.092 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:41:34.681 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=7].
+2019-04-03 15:41:35.502 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.1008274s
+2019-04-03 15:41:41.335 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045728s
+2019-04-03 15:41:44.326 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036944s
+2019-04-03 15:41:53.341 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0183389s
+2019-04-03 15:42:02.325 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041014s
+2019-04-03 15:42:02.341 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:42:02 +00:00
+2019-04-03 15:42:11.328 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050950s
+2019-04-03 15:42:23.326 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044951s
+2019-04-03 15:42:29.326 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049034s
+2019-04-03 15:42:32.325 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045648s
+2019-04-03 15:42:35.333 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027003s
+2019-04-03 15:42:44.326 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040328s
+2019-04-03 15:43:02.327 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:43:02 +00:00
+2019-04-03 15:45:15.294 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:45:15.334 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:45:15.335 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:45:15.335 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:45:15.336 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:45:15.340 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:45:15.341 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:45:15.377 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:45:15.378 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:45:15.387 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:45:15.543 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:45:17.385 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:45:17.963 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=8].
+2019-04-03 15:45:18.426 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0670425s
+2019-04-03 15:45:24.353 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043031s
+2019-04-03 15:45:30.350 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043420s
+2019-04-03 15:45:33.352 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0065955s
+2019-04-03 15:45:42.350 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0046510s
+2019-04-03 15:45:45.356 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:45:45 +00:00
+2019-04-03 15:45:54.352 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0042438s
+2019-04-03 15:46:03.351 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037312s
+2019-04-03 15:46:12.349 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037907s
+2019-04-03 15:46:24.353 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028218s
+2019-04-03 15:46:33.348 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040459s
+2019-04-03 15:46:42.351 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040301s
+2019-04-03 15:46:45.339 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:46:45 +00:00
+2019-04-03 15:47:45.340 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:47:45 +00:00
+2019-04-03 15:48:45.342 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:48:45 +00:00
+2019-04-03 15:52:18.715 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:52:18.755 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:52:18.755 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:52:18.756 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:52:18.756 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:52:18.760 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:52:18.761 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:52:18.789 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:52:18.791 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:52:18.797 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:52:18.946 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:52:21.503 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:52:22.086 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=10].
+2019-04-03 15:52:24.837 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0559933s
+2019-04-03 15:52:30.761 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037800s
+2019-04-03 15:52:52.670 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:52:52.712 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:52:52.713 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:52:52.713 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:52:52.713 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:52:52.713 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:52:52.714 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:52:52.750 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:52:52.752 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:52:52.752 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:52:52.918 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:53:04.806 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:53:05.381 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=11].
+2019-04-03 15:53:07.738 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0555666s
+2019-04-03 15:53:10.666 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0042964s
+2019-04-03 15:53:19.678 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034048s
+2019-04-03 15:53:22.740 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:53:22 +00:00
+2019-04-03 15:53:25.677 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038572s
+2019-04-03 15:53:28.677 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029644s
+2019-04-03 15:53:31.677 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036006s
+2019-04-03 15:53:48.964 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:53:49.002 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:53:49.003 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:53:49.003 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:53:49.004 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:53:49.009 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:53:49.010 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:53:49.046 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:53:49.047 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:53:49.047 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:53:49.238 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:53:50.445 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:53:51.054 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=12].
+2019-04-03 15:53:52.079 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0513768s
+2019-04-03 15:54:01.020 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041678s
+2019-04-03 15:54:24.133 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 15:54:24.175 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 15:54:24.175 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 15:54:24.184 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 15:54:24.185 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 15:54:24.193 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 15:54:24.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 15:54:24.211 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 15:54:24.212 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 15:54:24.212 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 15:54:24.406 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 15:54:26.214 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 15:54:26.789 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered ServiceInstance[Id=13].
+2019-04-03 15:54:27.273 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 2 trace segment. cost: 00:00:00.0589489s
+2019-04-03 15:54:30.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0061858s
+2019-04-03 15:54:39.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037029s
+2019-04-03 15:54:45.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 4 trace segment. cost: 00:00:00.0076245s
+2019-04-03 15:54:51.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040099s
+2019-04-03 15:54:54.195 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0045600s
+2019-04-03 15:54:54.217 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:54:54 +00:00
+2019-04-03 15:55:00.199 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032326s
+2019-04-03 15:55:09.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036010s
+2019-04-03 15:55:21.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033283s
+2019-04-03 15:55:30.198 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036661s
+2019-04-03 15:55:39.191 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034719s
+2019-04-03 15:55:51.192 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039908s
+2019-04-03 15:55:54.179 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:55:54 +00:00
+2019-04-03 15:56:00.197 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0043799s
+2019-04-03 15:56:09.192 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041293s
+2019-04-03 15:56:21.210 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0078200s
+2019-04-03 15:56:30.197 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028395s
+2019-04-03 15:56:39.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0046018s
+2019-04-03 15:56:51.206 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049281s
+2019-04-03 15:56:54.180 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:56:54 +00:00
+2019-04-03 15:57:00.215 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0075405s
+2019-04-03 15:57:12.210 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0086933s
+2019-04-03 15:57:21.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034121s
+2019-04-03 15:57:30.199 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034021s
+2019-04-03 15:57:42.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040396s
+2019-04-03 15:57:51.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0052957s
+2019-04-03 15:57:54.191 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:57:54 +00:00
+2019-04-03 15:58:00.208 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0079670s
+2019-04-03 15:58:12.200 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035576s
+2019-04-03 15:58:21.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037690s
+2019-04-03 15:58:30.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044126s
+2019-04-03 15:58:42.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0080539s
+2019-04-03 15:58:51.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030248s
+2019-04-03 15:58:54.193 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:58:54 +00:00
+2019-04-03 15:59:00.199 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027175s
+2019-04-03 15:59:12.198 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0097720s
+2019-04-03 15:59:21.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032864s
+2019-04-03 15:59:30.192 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025333s
+2019-04-03 15:59:42.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030466s
+2019-04-03 15:59:51.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050505s
+2019-04-03 15:59:54.192 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 7:59:54 +00:00
+2019-04-03 16:00:00.195 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040222s
+2019-04-03 16:00:12.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030504s
+2019-04-03 16:00:21.193 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034181s
+2019-04-03 16:00:30.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0093573s
+2019-04-03 16:00:42.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030045s
+2019-04-03 16:00:51.195 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031198s
+2019-04-03 16:00:54.192 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:00:54 +00:00
+2019-04-03 16:01:00.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041987s
+2019-04-03 16:01:12.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028306s
+2019-04-03 16:01:21.200 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029778s
+2019-04-03 16:01:30.196 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0074270s
+2019-04-03 16:01:42.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031307s
+2019-04-03 16:01:51.195 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032675s
+2019-04-03 16:01:54.192 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:01:54 +00:00
+2019-04-03 16:02:00.195 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036877s
+2019-04-03 16:02:12.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028193s
+2019-04-03 16:02:21.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038488s
+2019-04-03 16:02:33.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0050724s
+2019-04-03 16:02:42.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033392s
+2019-04-03 16:02:51.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033090s
+2019-04-03 16:02:54.191 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:02:54 +00:00
+2019-04-03 16:03:03.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032343s
+2019-04-03 16:03:12.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033873s
+2019-04-03 16:03:21.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033850s
+2019-04-03 16:03:33.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0038194s
+2019-04-03 16:03:42.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031366s
+2019-04-03 16:03:51.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028812s
+2019-04-03 16:03:54.192 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:03:54 +00:00
+2019-04-03 16:04:03.212 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0109256s
+2019-04-03 16:04:12.209 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0092194s
+2019-04-03 16:04:21.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028873s
+2019-04-03 16:04:33.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031355s
+2019-04-03 16:04:42.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035103s
+2019-04-03 16:04:51.195 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032232s
+2019-04-03 16:04:54.191 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:04:54 +00:00
+2019-04-03 16:05:03.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027976s
+2019-04-03 16:05:12.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0036385s
+2019-04-03 16:05:21.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032603s
+2019-04-03 16:05:33.198 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025031s
+2019-04-03 16:05:42.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029622s
+2019-04-03 16:05:51.193 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031979s
+2019-04-03 16:05:54.192 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:05:54 +00:00
+2019-04-03 16:06:03.198 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032740s
+2019-04-03 16:06:12.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027347s
+2019-04-03 16:06:21.200 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030613s
+2019-04-03 16:06:33.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035626s
+2019-04-03 16:06:42.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029713s
+2019-04-03 16:06:51.196 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040211s
+2019-04-03 16:06:54.197 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:06:54 +00:00
+2019-04-03 16:07:03.200 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028969s
+2019-04-03 16:07:12.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039903s
+2019-04-03 16:07:21.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034844s
+2019-04-03 16:07:33.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039332s
+2019-04-03 16:07:42.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0044877s
+2019-04-03 16:07:54.193 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:07:54 +00:00
+2019-04-03 16:07:54.195 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0060186s
+2019-04-03 16:08:03.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031215s
+2019-04-03 16:08:12.199 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024879s
+2019-04-03 16:08:24.199 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0105745s
+2019-04-03 16:08:33.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030007s
+2019-04-03 16:08:42.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031534s
+2019-04-03 16:08:54.179 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:08:54 +00:00
+2019-04-03 16:08:54.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035238s
+2019-04-03 16:09:03.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032133s
+2019-04-03 16:09:12.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031079s
+2019-04-03 16:09:24.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035325s
+2019-04-03 16:09:33.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032189s
+2019-04-03 16:09:42.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029629s
+2019-04-03 16:09:54.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0055870s
+2019-04-03 16:09:54.195 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:09:54 +00:00
+2019-04-03 16:10:03.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031094s
+2019-04-03 16:10:12.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034699s
+2019-04-03 16:10:24.193 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039171s
+2019-04-03 16:10:33.206 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040340s
+2019-04-03 16:10:42.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039712s
+2019-04-03 16:10:54.193 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:10:54 +00:00
+2019-04-03 16:10:54.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049193s
+2019-04-03 16:11:03.198 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031783s
+2019-04-03 16:11:12.208 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0083889s
+2019-04-03 16:11:24.191 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027663s
+2019-04-03 16:11:33.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029374s
+2019-04-03 16:11:42.200 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024285s
+2019-04-03 16:11:54.181 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:11:54 +00:00
+2019-04-03 16:11:54.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0041253s
+2019-04-03 16:12:03.204 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030458s
+2019-04-03 16:12:12.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035612s
+2019-04-03 16:12:24.192 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0026459s
+2019-04-03 16:12:33.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025720s
+2019-04-03 16:12:42.200 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030264s
+2019-04-03 16:12:54.193 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:12:54 +00:00
+2019-04-03 16:12:54.195 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0069160s
+2019-04-03 16:13:03.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0023365s
+2019-04-03 16:13:15.207 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0042750s
+2019-04-03 16:13:24.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030931s
+2019-04-03 16:13:33.206 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034974s
+2019-04-03 16:13:45.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035740s
+2019-04-03 16:13:54.179 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:13:54 +00:00
+2019-04-03 16:13:54.200 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0029721s
+2019-04-03 16:14:03.192 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031119s
+2019-04-03 16:14:15.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035906s
+2019-04-03 16:14:24.192 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034576s
+2019-04-03 16:14:33.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0034091s
+2019-04-03 16:14:45.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0025581s
+2019-04-03 16:14:54.179 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:14:54 +00:00
+2019-04-03 16:14:54.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0030962s
+2019-04-03 16:15:03.200 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028867s
+2019-04-03 16:15:15.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027705s
+2019-04-03 16:15:24.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028788s
+2019-04-03 16:15:33.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0031241s
+2019-04-03 16:15:45.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0032706s
+2019-04-03 16:15:54.193 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:15:54 +00:00
+2019-04-03 16:15:54.196 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0067211s
+2019-04-03 16:16:03.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028901s
+2019-04-03 16:16:15.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027735s
+2019-04-03 16:16:24.193 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0035096s
+2019-04-03 16:16:33.206 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0040329s
+2019-04-03 16:16:45.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0024900s
+2019-04-03 16:16:54.192 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:16:54 +00:00
+2019-04-03 16:16:54.193 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0039506s
+2019-04-03 16:17:03.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0028800s
+2019-04-03 16:17:15.201 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033012s
+2019-04-03 16:17:24.196 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0067046s
+2019-04-03 16:17:33.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0037873s
+2019-04-03 16:17:45.203 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0027567s
+2019-04-03 16:17:54.192 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Ping server @2019/4/3 8:17:54 +00:00
+2019-04-03 16:17:54.194 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0049013s
+2019-04-03 16:18:03.205 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.SegmentReporter : Report 1 trace segment. cost: 00:00:00.0033222s
+2019-04-03 17:41:42.908 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-03 17:41:42.988 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-03 17:41:42.988 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-03 17:41:42.989 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-03 17:41:42.990 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-03 17:41:42.994 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-03 17:41:42.999 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-03 17:41:43.019 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-03 17:41:43.020 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [HttpHandlerDiagnosticListener].
+2019-04-03 17:41:43.021 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-03 17:41:43.202 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:41:49.750 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Registered Service[Id=2].
+2019-04-03 17:41:50.394 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:41:50.395 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:41:58.051 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:41:58.073 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:42:13.001 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:42:13.001 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:42:28.023 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:42:28.047 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:42:42.996 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:42:42.996 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:42:43.029 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:42:43.056 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:42:43.511 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:42:43.511 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:42:58.031 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:42:58.060 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:43:13.000 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:43:13.000 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:43:13.028 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:43:13.059 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:43:13.505 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:43:13.505 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:43:28.031 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:43:28.054 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:43:42.999 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:43:42.999 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:43:43.036 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:43:43.068 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:43:43.513 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:43:43.513 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:43:58.039 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:43:58.080 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:44:12.996 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:44:12.996 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:44:13.032 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:44:13.072 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:44:13.510 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:44:13.510 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:44:28.027 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:44:28.054 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:44:42.995 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:44:42.996 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:44:43.028 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:44:43.052 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:44:43.508 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:44:43.508 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:44:58.023 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:44:58.044 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:45:12.995 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:45:12.995 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:45:13.024 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:45:13.044 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:45:13.510 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:45:13.511 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:45:28.033 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:45:28.060 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:45:42.993 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:45:42.993 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:45:43.033 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:45:43.063 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:45:43.504 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:45:43.504 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:45:58.025 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:45:58.054 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:46:12.994 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:46:12.994 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:46:13.028 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:46:13.061 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:46:13.509 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:46:13.509 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:46:28.023 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:46:28.052 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:46:42.995 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:46:42.995 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:46:43.025 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:46:43.062 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:46:43.507 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:46:43.507 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:46:58.022 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:46:58.041 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:47:12.995 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:47:12.995 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")
+2019-04-03 17:47:13.028 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-03 17:47:13.055 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Connected server[127.0.0.1:11800].
+2019-04-03 17:47:13.500 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.V6.ServiceRegister : Register service instance fail.
+Grpc.Core.RpcException: Status(StatusCode=Unknown, Detail="")
+   at SkyApm.Transport.Grpc.V6.ServiceRegister.<>c__DisplayClass10_0.<<RegisterServiceInstanceAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at SkyApm.Transport.Grpc.Common.Call.Execute[T](Func`1 task, Func`1 errCallback, Func`1 errMessage)
+2019-04-03 17:47:13.500 +08:00 [donetcore] [Warning] SkyApm.Transport.Grpc.ConnectionManager : Connection state changed. Connected -> Ready . Status(StatusCode=Unknown, Detail="")

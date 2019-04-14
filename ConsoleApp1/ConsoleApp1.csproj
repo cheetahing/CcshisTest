@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Exceptionless" Version="4.3.2022" />
+    <PackageReference Include="Exceptionless.NLog" Version="4.3.2022" />
+    <PackageReference Include="NLog" Version="4.6.0" />
+    <PackageReference Include="NLog.Config" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>

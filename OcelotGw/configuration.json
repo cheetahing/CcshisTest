@@ -1,0 +1,24 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/{url}",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/payment/{url}",
+      "UpstreamHttpMethod": [
+        "Get",
+        "Post"
+      ],
+      "ServiceName": "my.servicename1", //服务名字
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //指定一个负载均衡算法：  LeastConnection 最少的连接     RoundRobin 轮训
+      },
+      "UseServiceDiscovery": true //使用服务发现
+    }
+  ],
+  "GlobalConfiguration": { //全局配置
+    "ServiceDiscoveryProvider": { //连接这台Consul服务器
+      "Host": "127.0.0.1",
+      "Port": 8500
+    }
+  }
+}

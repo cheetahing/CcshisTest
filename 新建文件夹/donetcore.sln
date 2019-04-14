@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "donetcore", "donetcore\donetcore.csproj", "{6BEC0E6F-9C5B-45CE-8921-38A675834677}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCore.CAP", "CAP\src\DotNetCore.CAP\DotNetCore.CAP.csproj", "{C61778D4-AA25-4B8D-B844-9807E4C337F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BEC0E6F-9C5B-45CE-8921-38A675834677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEC0E6F-9C5B-45CE-8921-38A675834677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEC0E6F-9C5B-45CE-8921-38A675834677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEC0E6F-9C5B-45CE-8921-38A675834677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C61778D4-AA25-4B8D-B844-9807E4C337F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C61778D4-AA25-4B8D-B844-9807E4C337F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C61778D4-AA25-4B8D-B844-9807E4C337F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C61778D4-AA25-4B8D-B844-9807E4C337F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD89F405-A5BA-4F40-9970-530B52BED863}
+	EndGlobalSection
+EndGlobal
