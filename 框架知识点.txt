@@ -1,0 +1,28 @@
+asp.net core ioc(autoface) ok
+AOP ok
+eventBus(asp.net core cap)ok
+mongodb ok
+rabbitmq ok
+redis ok
+api网关(ocelot) ok
+服务发现(consul) ok
+Quzrtz.net core ok (集群未测试)
+分步式锁(基于redis实现) ok
+配置中心 ok
+分布式日志服务exceptionless ok
+微服务调用 WebApiClient.JIT ok
+swagger ok
+全局异常处理 ok
+
+全局id(雪花算法) ok
+
+sso(身份认证)
+olap报表分析Elasticsearch
+分布式追踪(Skywalking) ok
+docker部署(k8s集群)
+mysql drds
+
+框架测试进度
+今天搞定了swagger、全局异常处理、配置中心
+
+https
