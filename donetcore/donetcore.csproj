@@ -21,7 +21,9 @@
     <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
     <PackageReference Include="Autofac.Extras.Quartz" Version="4.5.0" />
     <PackageReference Include="Consul" Version="0.7.2.6" />
-    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="2.4.2" />
+    <PackageReference Include="DotNetCore.CAP" Version="2.5.0" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="2.5.0" />
+    <PackageReference Include="DotNetCore.CAP.SqlServer" Version="2.5.0" />
     <PackageReference Include="Exceptionless.AspNetCore" Version="4.3.2022" />
     <PackageReference Include="Exceptionless.NLog" Version="4.3.2022" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
@@ -40,11 +42,6 @@
     <PackageReference Include="WebApiClient.Extensions.HttpClientFactory" Version="1.3.3" />
     <PackageReference Include="WebApiClient.JIT" Version="0.3.5" />
     <PackageReference Include="Winton.Extensions.Configuration.Consul" Version="2.2.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CAP\src\DotNetCore.CAP.SqlServer\DotNetCore.CAP.SqlServer.csproj" />
-    <ProjectReference Include="..\CAP\src\DotNetCore.CAP\DotNetCore.CAP.csproj" />
   </ItemGroup>
 
   <ItemGroup>

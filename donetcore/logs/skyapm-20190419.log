@@ -1,0 +1,305 @@
+2019-04-19 11:22:04.705 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-19 11:22:04.745 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-19 11:22:04.745 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-19 11:22:04.745 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-19 11:22:04.746 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-19 11:22:04.747 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-19 11:22:04.748 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-19 11:22:04.766 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-19 11:22:04.767 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-19 11:22:15.057 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:22:19.798 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:22:29.817 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:22:34.773 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:22:44.784 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:22:49.772 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:22:59.789 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:23:04.770 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:23:14.788 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:23:19.773 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:23:29.791 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:23:34.777 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:23:44.790 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:23:49.776 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:23:59.789 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:24:04.768 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:24:14.783 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:24:19.772 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:24:29.786 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:24:34.784 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:24:44.797 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:44:24.238 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Initializing ...
+2019-04-19 11:44:24.286 +08:00 [donetcore] [Information] SkyApm.Service.RegisterService : Loaded instrument service [SkyApm.Service.RegisterService].
+2019-04-19 11:44:24.286 +08:00 [donetcore] [Information] SkyApm.Service.PingService : Loaded instrument service [SkyApm.Service.PingService].
+2019-04-19 11:44:24.287 +08:00 [donetcore] [Information] SkyApm.Service.ServiceDiscoveryV5Service : Loaded instrument service [SkyApm.Service.ServiceDiscoveryV5Service].
+2019-04-19 11:44:24.287 +08:00 [donetcore] [Information] SkyApm.Service.SegmentReportService : Loaded instrument service [SkyApm.Service.SegmentReportService].
+2019-04-19 11:44:24.287 +08:00 [donetcore] [Information] SkyApm.Sampling.SimpleCountSamplingInterceptor : Loaded instrument service [SkyApm.Sampling.SimpleCountSamplingInterceptor].
+2019-04-19 11:44:24.288 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.V6.ConnectService : Loaded instrument service [SkyApm.Transport.Grpc.V6.ConnectService].
+2019-04-19 11:44:24.307 +08:00 [donetcore] [Information] SkyApm.Diagnostics.TracingDiagnosticProcessorObserver : Loaded diagnostic listener [Microsoft.AspNetCore].
+2019-04-19 11:44:24.308 +08:00 [donetcore] [Information] SkyApm.InstrumentStartup : Started SkyAPM .NET Core Agent.
+2019-04-19 11:44:34.519 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:44:39.332 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:44:49.349 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:44:54.313 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:45:04.328 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:45:09.313 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:45:19.327 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:45:24.315 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:45:34.328 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:45:39.312 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:45:49.327 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:45:54.319 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:46:04.336 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:46:09.315 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:46:19.334 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:46:24.317 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:46:34.329 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:46:39.317 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:46:49.335 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:46:54.315 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:47:04.330 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:47:09.319 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:47:19.335 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:47:24.319 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:47:34.328 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:47:39.314 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:47:49.330 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:47:54.315 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:48:04.329 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:48:09.319 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:48:19.330 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:48:24.315 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:48:34.324 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:48:39.313 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:48:49.333 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:48:54.317 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:49:04.338 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:49:09.317 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:49:19.335 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:49:24.320 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:49:34.339 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:49:39.317 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:49:49.336 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:49:54.316 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:50:04.331 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:50:09.319 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:50:19.336 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:50:24.320 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:50:34.328 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:50:39.316 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:50:49.335 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:50:54.321 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:51:04.338 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:51:09.319 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:51:19.331 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:51:24.314 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:51:34.326 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:51:39.314 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:51:49.327 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:51:54.315 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:52:04.336 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:52:09.315 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:52:19.328 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:52:24.315 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:52:34.337 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:52:39.314 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:52:49.326 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:52:54.317 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:53:04.331 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:53:09.317 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:53:19.330 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:53:24.319 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].
+2019-04-19 11:53:34.333 +08:00 [donetcore] [Error] SkyApm.Transport.Grpc.ConnectionManager : Connect server timeout.
+System.Threading.Tasks.TaskCanceledException: Reached deadline.
+   at Grpc.Core.Channel.WaitForStateChangedAsync(ChannelState lastObservedState, Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 139
+   at Grpc.Core.Channel.ConnectAsync(Nullable`1 deadline) in T:\src\github\grpc\src\csharp\Grpc.Core\Channel.cs:line 220
+   at SkyApm.Transport.Grpc.ConnectionManager.ConnectAsync()
+2019-04-19 11:53:39.318 +08:00 [donetcore] [Information] SkyApm.Transport.Grpc.ConnectionManager : Shutdown connection[127.0.0.1:11800].

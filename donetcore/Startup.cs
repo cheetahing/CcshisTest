@@ -33,6 +33,11 @@ using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Authentication.OAuth;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 
 namespace donetcore
 {
@@ -74,34 +79,47 @@ namespace donetcore
             //    option.InstanceName = "master";
             //});
 
-            services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = OAuthDefaults.DisplayName;
-            })
-           .AddCookie()
-           .AddOAuth(OAuthDefaults.DisplayName, options =>
-           {
-               options.ClientId = "oauth.code";
-               options.ClientSecret = "secret";
-               options.AuthorizationEndpoint = "https://oidc.faasx.com/connect/authorize";
-               options.TokenEndpoint = "https://oidc.faasx.com/connect/token";
-               options.CallbackPath = "/signin-oauth";
-               options.Scope.Add("openid");
-               options.Scope.Add("profile");
-               options.Scope.Add("email");
-               options.SaveTokens = true;
-               // 事件执行顺序 ：
-               // 1.创建Ticket之前触发
-               options.Events.OnCreatingTicket = context => Task.CompletedTask;
-               // 2.创建Ticket失败时触发
-               options.Events.OnRemoteFailure = context => Task.CompletedTask;
-               // 3.Ticket接收完成之后触发
-               options.Events.OnTicketReceived = context => Task.CompletedTask;
-               // 4.Challenge时触发，默认跳转到OAuth服务器
-               // options.Events.OnRedirectToAuthorizationEndpoint = context => context.Response.Redirect(context.RedirectUri);
-           });
+            //添加jwt验证：
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options => {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,//是否验证Issuer
+                        ValidateAudience = true,//是否验证Audience
+                        ValidateLifetime = true,//是否验证失效时间
+                        ValidateIssuerSigningKey = true,//是否验证SecurityKey
+                        ValidAudience = "yourdomain.com",//Audience
+                        ValidIssuer = "yourdomain.com",//Issuer，这两项和前面签发jwt的设置一致
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("skjasdflskdl;fakjsdfl;aksjdfl;ajskldfjasld;kfjasl;djf"))//拿到SecurityKey
+                    };
+                    options.Events = new JwtBearerEvents()
+                    {
+                        OnChallenge = context =>
+                        {
+                            return Task.CompletedTask;
+                        },
+                        OnTokenValidated = context =>
+                        {
+                            //在这里拦截黑名单的token
+                            //获取id
+                            var sid = context.Principal.Claims.ToList().Where(p => p.Type == ClaimTypes.Sid).Single().Value;
+
+                            //这里获取到token的批次号，用于过期使用
+                            var serialNumber = context.Principal.Claims.ToList().Where(p => p.Type == ClaimTypes.SerialNumber).Single().Value;
+                            context.Fail("测试错误");
+                              return Task.CompletedTask;
+                          },
+                        OnMessageReceived = context =>
+                          {
+                              return Task.CompletedTask;
+                          },
+                        OnAuthenticationFailed = context =>
+                          {
+
+                              return Task.CompletedTask;
+                          }
+                    };
+                });
 
             //使用了autofac管理整个注入
             var serviceProvider = RegisterAutofac(services);
@@ -171,6 +189,8 @@ namespace donetcore
 
             //});            
 
+            app.UseAuthentication();//注意添加这一句，启用验证
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -184,7 +204,7 @@ namespace donetcore
 
 
             //注册consul
-            app.RegisterConsul(lifetime, null, configuration);
+            //app.RegisterConsul(lifetime, null, configuration);
 
 
 

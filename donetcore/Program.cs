@@ -56,24 +56,25 @@ namespace donetcore
             //LogManager.GetLogger("t").Debug("123123");
 
 
-            CreateWebHostBuilder(args).ConfigureAppConfiguration(cac =>
-            {
-                ConsulClientConfiguration consulClientConfiguration = new ConsulClientConfiguration()
-                {
-                    Address = new Uri($"http://127.0.0.1:8500")
-                };
-                var cancellationTokenSource = new CancellationTokenSource();
-                var builder = new ConfigurationBuilder()
-                    .AddConsul("root", cancellationTokenSource.Token, p =>
-                    {
-                        p.ConsulConfigurationOptions = c => c = consulClientConfiguration;
-                        p.Optional = true;
-                    });
-                var consulConfig = builder.Build();
+            CreateWebHostBuilder(args)
+            //    .ConfigureAppConfiguration(cac =>
+            //{
+            //    ConsulClientConfiguration consulClientConfiguration = new ConsulClientConfiguration()
+            //    {
+            //        Address = new Uri($"http://127.0.0.1:8500")
+            //    };
+            //    var cancellationTokenSource = new CancellationTokenSource();
+            //    var builder = new ConfigurationBuilder()
+            //        .AddConsul("root", cancellationTokenSource.Token, p =>
+            //        {
+            //            p.ConsulConfigurationOptions = c => c = consulClientConfiguration;
+            //            p.Optional = true;
+            //        });
+            //    var consulConfig = builder.Build();
 
-                cac.AddConfiguration(consulConfig);
+            //    cac.AddConfiguration(consulConfig);
 
-            })
+            //})
             .Build().Run();
 
 
